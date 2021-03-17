@@ -1,0 +1,172 @@
+*{
+  margin:0;
+  padding:0
+  border-size:border-box;
+}
+
+#container{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: lightblue;
+}
+
+dt{
+    font-size: 40px;
+    font-family: cursive;
+    
+    
+/*    color: #133099;*/
+    color: black;
+}
+
+dd{
+    font-family: monospace;
+/*    color: #120d5d;*/
+    color: darkgray;
+}
+#header{
+    height: 100px;
+    background:linear-gradient(gray,#2f0768);
+     padding: 15px 15px 0px 15px;
+}
+
+#left{
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+#right{
+    float: right;
+    background-color: #4d4c65;
+    width: 350px;
+    height: 45px;
+    padding: 15px 15px 0px 15px;
+    margin-top: 12px;
+}
+
+.input {
+    padding: 4px;    
+}
+
+#input1{
+    float: left;
+    color: blue;  
+}
+
+#input2{
+    float: right;
+    color: darkblue;
+    font-family: cursive;
+    font-size: 10px;   
+}
+
+#main ul li {
+    list-style: none;
+    float: left;
+    padding:0 35px;
+    border-right: 1px solid black;
+    height: 40px;
+    margin-top:  25px;
+}
+
+#main ul li:last-child{border-right: none;}
+
+#main ul{
+    height: 100px;
+    background: linear-gradient(white,gray);
+    padding: auto;
+}
+
+#main ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: cursive;
+    color: #133099;
+    line-height: 14px;
+}
+
+#main ul li a:hover, #main ul {
+    color: #120d5d;
+    font-size: 35px;
+    transition: font-size 0.3s ease;
+}
+
+#SI{
+    background: linear-gradient(to left,#443535,gray,#443535);
+    margin:auto 0px;
+    height: 250px;
+    padding: 0 18px;
+}
+
+#SI h3{
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: bold;
+    color:  #120d5d;
+    text-align: center;    
+}
+
+#SI p{
+    font-size: 19px;
+    font-family: serif;
+    color: #120d5d;
+    text-align: justify;
+}
+
+#pied_de_page{
+    height: 50px;
+    padding: 12px 15px 0px 15px;
+}
+
+#pied_de_page #p{
+    float: left;
+/*    background-color: fuchsia;*/
+    font-family: cursive;
+    color: darkblue;
+    font-size: 12px;
+}
+#pied_de_page #mail{
+    float: right;
+/*    background-color: forestgreen;*/
+    height: 20px;
+    padding: 12px ;
+}
+
+#pied_de_page #mail #input{
+    width: 10em;
+    color: darkslateblue;
+}
+
+#pied_de_page #mail #sub{
+    font-size: 9.5px;
+    font-family: cursive;
+    color: darkblue;
+}
+
+#matiere{
+     background:linear-gradient(aqua,gray);
+}
+
+#matiere table th{
+    border: 1px solid transparent ;
+    padding: 25px;
+}
+
+#matiere table th a{
+    text-decoration: none;
+    color:black;
+    font-family: cursive;
+    font-weight: 500;
+}
+
+#matiere table th a:hover{
+    font-size: 22px;
+    transition: font-size 0.5s linear;
+    -ms-transition: font-size 0.5s linear;
+    -o-transition: font-size 0.5s linear;
+    -webkit-transition: font-size 0.5s linear;
+    -moz-transition: font-size 0.5s linear;
+}
